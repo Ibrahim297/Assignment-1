@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <h3>Sign up</h3>
+    <form action="index.html" method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+          <label for="name" style="margin-right: 1.8cm">Name</label>
+          <input type="text" placeholder="Full-Name" id="name" required />
+        </div>
+        <div>
+          <label for="password" style="margin-right: 1.1cm">password</label>
+          <input
+            type="password"
+            placeholder="enter password"
+            id="password"
+            required
+          />
+        </div>
+        <div>
+          <label style="margin-right: 1.45cm">ID-type</label>
+          <select name="ID-type" id="ID-type">
+            <option value="GHANA-CARD">GHANA-CARD</option>
+            <option value="NHIS-CARD">NHIS ID-CARD</option>
+            <option value="VOTER ID-CARD">VOTER ID-CARD</option>
+            <option value="STUDENT ID-CARD">STUDENT ID-CARD</option>
+          </select>
+        </div>
+        <div>
+          <label for="ID-number" style="margin-right: 0.75cm">ID-number</label>
+          <input
+            type="number"
+            placeholder="ID"
+            id="ID-number"
+            name="ID-number"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="age" style="margin-right: 2.4cm">age</label>
+          <input
+            type="number"
+            placeholder="age"
+            id="age"
+            name="age"
+            min="10"
+            max="200"
+          />
+        </div>
+        <div>
+          Gender
+          <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" />
+          </div>
+          <div>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" />
+          </div>
+        </div>
+        <div>
+          <label for="Phone-number">Phone number</label>
+          <input type="tel" placeholder="number" id="Phone-number" name="" />
+        </div>
+      </fieldset>
+      <div>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+      </div>
+    </form>
+  </body>
+</html>
