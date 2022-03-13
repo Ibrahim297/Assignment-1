@@ -1,0 +1,257 @@
+/* signup page*/
+.body_of_signup{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #24252a;
+    align-items: center;
+    justify-content: center;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background {
+    background-image: url(Images/student.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter:drop-shadow(10px);
+   transition: all 0.7s ease-in-out 0.3s;
+   box-shadow: 0 5px 10px black;
+}
+.bg-info {
+    transition: all 0.5s ease 0.1s;
+    
+}
+/* styling of navigation bar*/
+.heading {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.7s ease-in-out 0.3s;
+  box-shadow: 0 5px 10px black;
+  
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px #24252a;
+  transition: all 0.7s ease-in-out 0.3s;
+}
+li, 
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.list_links{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+  transition: all 0.7s ease-in-out 0.3s;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  overflow: hidden;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: #0088a9;
+}
+button {
+  padding: 9px 20px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* Styling of form*/
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color:black;
+    transition: all 0.7s ease-in-out 0.3s;
+}
+fieldset {
+  margin: 2em 0;
+  padding: 1em 2em;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  min-width: 200px;
+  transition: all 0.3s ease-in-out 0.1s;
+  background-color: white;
+  box-shadow: 0 5px 10px black;
+}
+legend {
+  font-size: 1.25em;
+  padding: 0 0.25em;
+  color: rgb(34, 32, 32);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px black;
+}
+label {
+  display: block;
+  margin-top: 1em;
+}
+.checks {
+  margin-top: 0;
+  display: inline-block;
+  justify-content: space-between;
+}
+input {
+  padding: 0.3em;
+  border: solid 1px #999;
+  border-radius: 0.5em;
+}
+.next {
+  justify-content: space-between;
+  display: inline-block;
+  margin: 5px;
+  padding: 7px 15px;
+  border-radius: 6px;
+  margin-top: 1em;
+}
+@media screen and (min-width: 430px) {
+    legend {
+        font-size: 1.75em;
+    }
+    fieldset {
+        width: 20%;
+        min-width: 320px;
+        margin: auto;
+    }
+    .checks {
+        display: inline-block;
+        padding-top: .5em;
+        margin-top: 0;
+        margin-right: .5em;
+
+}
+/* Styling of homepage*/
+#profile_photo {
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+    transition: all 0.5s ease-in-out 0.2s;
+}
+.body_of_index {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: #202731;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+   
+}
+    
+.description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    transition: all 0.5s ease 0.3s;
+}
+.hobbies {
+       position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+    transition: all 0.5s ease 0.3s;
+    box-shadow:0 5px 10px black;
+    
+}
+.table_link {
+    color: aqua;
+}
+/* Styling the table*/
+
+.edu_tab {
+    background-color:#202731;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+.table_body {
+    border-collapse: collapse;
+    box-shadow:0 5px 10px black;
+    background-color: white;
+    text-align: left;
+    overflow: hidden;
+    color:rgb(34, 32, 32);
+    transition: all 0.5s ease-in-out 0.2s;
+}
+thead {
+  box-shadow:0 5px 10px black ;
+  transition: all 0.5s ease-in-out 0.2s;
+}
+th {
+    padding: 1em 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out 0.2s;
+}
+td {
+    padding: 1em 2em;
+}
+.status_completed {
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    text-align: center;
+    transition: all 0.5s ease-in-out 0.2s;
+}
+.status_ongoing {
+    background-color: rgb(255, 255, 41);
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    text-align: center;
+    transition: all 0.5s ease-in-out 0.2s;
+}
+tr:nth-child(even){
+    background-color:lightskyblue;
+}
